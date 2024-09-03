@@ -1,0 +1,1847 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <!--bootstrap-icon cdn path CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+  <!-- font-awsome-link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <title>radio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header-top code(section-1) -->
+  <div class="container-fluid " style="background-color:rgb(17,16,13); height:48px" id="top-header">
+
+    <div class="row justify-content-center align-content-center">
+      <div class="col-lg-5  d-flex justify-content-start align-content-center">
+
+        <div class="col-lg-3  col-sm-6 d-inline d-flex justify-content-center align-content-center">
+          <i class="bi bi-calendar4-week calender"></i>
+          <span class="text-white ps-2 date-text"> June 22, 2024</span>
+        </div>
+
+        <div class="col-lg-5  col-sm-6  d-inline d-flex justify-content-center align-items-center"
+          style="background-color:#ff8717; height:48px;">
+          <i class="bi bi-facebook ms-1 me-2 icon"></i>
+          <i class="bi bi-twitter ms-1 me-2 icon"></i>
+          <i class="bi bi-linkedin ms-1 me-2  icon"></i>
+          <i class="bi bi-instagram ms-1 me-2  icon"></i>
+          <i class="bi bi-browser-edge ms-1 me-2  icon"></i>
+        </div>
+      </div>
+
+      <div class="col-5  d-flex justify-content-end align-items-center">
+        <div class=" dropdown d-inline-block d-flex justify-content-end align-items-center  d-none d-md-block">
+          <button type="button" class="btn btn-dark" data-bs-toggle="dropdown"
+            style=" background-color:rgb(17,16,13); font-size:14px; font-weight:500">
+            ENG <i class="bi bi-chevron-down ps-1" style="font-size:11px; font-weight:500"></i>
+          </button>
+          <ul class="dropdown-menu button-dropdown-menu  p-0 mt-1" style="width:220px; border-top:3px solid black;">
+            <li><a class="dropdown-item english-option ps-2 pe-2 pt-2 pb-2 m-0" href="#">English</a></li>
+            <li>
+              <hr class="horizontal-divider p-0 m-0" style="color:white" />
+            </li>
+            <li><a class="dropdown-item english-option m-0 ps-2 pe-2 pt-2 pb-2" href="#">Arabic</a></li>
+            <li>
+              <hr class="horizontal-divider m-0 p-0" style="color:white" />
+            </li>
+            <li><a class="dropdown-item english-option ps-2 pe-2 pt-2 pb-2 m-0" href="#">Spanish</a></li>
+          </ul>
+        </div>
+
+        <div class="  dropdown ps-3  d-inline-block  d-flex justify-content-center align-items-center">
+          <p class="mt-3 track-your-order">Track Your Order</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER 2 CODE -->
+  <div class="container" id="container-header-2">
+    <div class="row pt-2 pb-2 d-flex justify-content-center">
+
+      <div class="col-lg-2 ps-4 border border-warning d-flex justify-content-start align-items-center">
+        <img src="/logo.svg" />
+      </div>
+
+      <div class="col-lg-6 border border-warning d-flex justify-content-center align-items-center ">
+        <div class="input-group mt-3 mb-3 rounded-pill">
+          <input type="text" class="form-control" placeholder="Search For Products" aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+            style="background-color:rgb(243, 243, 243);  width:70%;  height:50px;  border-top-left-radius:30px;  border-bottom-left-radius:30px; font-family:sans-serif; font-size:13px; font-weight:500">
+
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+            style="background-color:black; color:white;  border-top-right-radius:30px;  border-bottom-right-radius: 30px;">
+            <i class="bi bi-search px-3"></i>
+          </button>
+
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 d-flex justify-content-end align-items-center border border-warning  d-none d-md-block">
+
+
+        <div class="row align-items-center pt-3 	d-sm-none d-md-block d-md-none d-lg-flex">
+          <div class="col-3 ">
+            <i class="bi bi-telephone-x-fill text-dark p-3" style="border-radius:50%;  background-color:#F3F3F3;"></i>
+          </div>
+
+          <div class="col-9">
+            <p class="p-0 m-0"><b>Support :</b> (+800) 856 800 604</p>
+            <p class="p-0 m-0"><b>Email : </b>info@Radios.com</p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- <div class="row pt-3 pb-3">
+
+      <div class="col-lg-3  logo ps-4 d-flex justify-content-start align-items-center">
+        <img src="logo.svg" />
+      </div>
+
+      <div class="col-lg-4 d-flex justify-content-start align-items-center d-none d-sm-block">
+        <div class="input-group mt-3 mb-3 rounded-pill">
+          <input type="text" class="form-control" placeholder="Search For Products" aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+            style="background-color:rgb(243, 243, 243);  width:70%;  height:50px;  border-top-left-radius:30px;  border-bottom-left-radius:30px; font-family:sans-serif; font-size:13px; font-weight:500">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+            style="background-color:black; color:white;  border-top-right-radius:30px;  border-bottom-right-radius: 30px;"><i
+              class="bi bi-search px-3"></i></button>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-4 d-flex justify-content-evenly align-items-center">
+
+
+        <div class="col-3 d-inline">
+          <i class="bi bi-telephone-x-fill text-dark p-3 " style="border-radius:50%;  background-color:#F3F3F3;"></i>
+        </div>
+
+        <div class="col-9">
+          <p class="p-0 m-0"><b>Support :</b> (+800) 856 800 604</p>
+          <p class="p-0 m-0"><b>Email : </b>info@Radios.com</p>
+        </div>
+
+      </div>
+
+    </div> -->
+
+  </div>
+
+
+  <!-- HEADER 3 (MENU) SECTION CODE -->
+
+  <div class="container" id="header-3">
+
+    <div class=" row col-12 justify-content-between p-0 m-0 h-auto"
+      style=" position:relative; z-index:1; border-radius:28px; border-left:5px; border-right:5px; border-top:5px solid orange; border-bottom:5px solid orange; background-color:white; ">
+
+
+      <div class=" col-sm-9  my-1 ">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <!-- -------------------------------------------------- -->
+            <!-- navbar offcanvas code for mobile view -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel" style="font-family:sans-serif; font-size:25px; font-weight:bolder">Radios
+                  Electronic Shop</h5>
+                <button type="button" class="btn-close bg-dark text-white" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <form action="">
+
+                    <div class="input-group mb-3 rounded-pill">
+                      <input type="text" class="form-control" placeholder="Search For Keywords"
+                        aria-label="Recipient's username" aria-describedby="button-addon2"
+                        style="background-color:rgb(243, 243, 243);  width:50%;  height:49px;  border-top-left-radius:10px;  border-bottom-left-radius:10px; font-family:sans-serif; font-size:13px; font-weight:500">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                        style="color:black;  border-top-right-radius:5px;  border-bottom-right-radius: 10px;"><i
+                          class="bi bi-search px-3"></i>
+                      </button>
+                    </div>
+
+                  </form>
+
+                  <li class="nav-item dropdown">
+
+                    <a class="nav-link" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                      Home<span><i class="bi bi-chevron-down ps-2 text-muted" style="font-size:13px" ;></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Home 1</a></li>
+
+                      <li><a class="dropdown-item" href="#">Home 2</a></li>
+
+                      <li><a class="dropdown-item" href="#">Home 3</a></li>
+                    </ul>
+
+                  </li>
+
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="shop.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                      Shop<span><i class="bi bi-chevron-down ps-2 text-muted dropdown-icon"
+                          style="font-size:13px"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Shop</a></li>
+                      <li><a class="dropdown-item" href="#">Single Product</a></li>
+                      <li><a class="dropdown-item" href="#">Cart</a></li>
+                      <li><a class="dropdown-item" href="#">Checkout</a></li>
+                      <li><a class="dropdown-item" href="#">My Account</a></li>
+                      <li><a class="dropdown-item" href="#">Order Tracking</a></li>
+                      <li><a class="dropdown-item" href="#">wishlist</a></li>
+                    </ul>
+                  </li>
+
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                      Blog<span><i class="bi bi-chevron-down ps-2  text-muted dropdown-icon"
+                          style="font-size:13px"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog</a></li>
+                      <li><a class="dropdown-item" href="#">Single Blog</a></li>
+                    </ul>
+                  </li>
+
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                      Pages<span><i class="bi bi-chevron-down ps-2 text-muted  dropdown-icon"
+                          style="font-size:13px"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">About</a></li>
+                      <li><a class="dropdown-item" href="#">404 Error</a></li>
+                    </ul>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                      Contact
+                    </a>
+                  </li>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------- -->
+            <!-- navbar code for large screen -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                    Home<span><i class="bi bi-chevron-down ps-2 text-muted" style="font-size:13px" ;></i></span>
+                  </a>
+                  <ul class="dropdown-menu p-0 mt-4 mb-1" aria-labelledby="navbarDropdown"
+                    style="width:200px; border-top:2px solid black;">
+                    <li><a class="dropdown-item header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Home 1</a></li>
+                    <li><a class="dropdown-item header-3-option    ps-3 pe-3 pt-2 pb-2 m-0" href="#">Home 2</a></li>
+                    <li><a class="dropdown-item  header-3-option   ps-3 pe-3 pt-2 pb-2 m-0" href="#">Home 3</a></li>
+                  </ul>
+
+                </li>
+
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                    Shop<span><i class="bi bi-chevron-down ps-2 text-muted dropdown-icon"
+                        style="font-size:13px"></i></span>
+                  </a>
+                  <ul class="dropdown-menu  p-0 mt-4 mb-1" aria-labelledby="navbarDropdown"
+                    style="width:200px; border-top:2px solid black;">
+                    <li><a class="dropdown-item  header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Shop</a></li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Single
+                        Product</a>
+                    </li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Cart</a></li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Checkout</a></li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">My Account</a>
+                    </li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Order
+                        Tracking</a>
+                    </li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">wishlist</a></li>
+                  </ul>
+                </li>
+
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                    Blog<span><i class="bi bi-chevron-down ps-2  text-muted dropdown-icon"
+                        style="font-size:13px"></i></span>
+                  </a>
+                  <ul class="dropdown-menu  p-0 mt-4 mb-1" aria-labelledby="navbarDropdown"
+                    style="width:200px; border-top:2px solid black;">
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Blog</a></li>
+                    <li><a class="dropdown-item   header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">Single Blog</a>
+                    </li>
+                  </ul>
+                </li>
+
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                    Pages<span><i class="bi bi-chevron-down ps-2 text-muted  dropdown-icon"
+                        style="font-size:13px"></i></span>
+                  </a>
+                  <ul class="dropdown-menu  p-0 mt-4 mb-1" aria-labelledby="navbarDropdown"
+                    style="width:200px; border-top:2px solid black;">
+                    <li><a class="dropdown-item header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">About</a></li>
+                    <li><a class="dropdown-item header-3-option  ps-3 pe-3 pt-2 pb-2 m-0" href="#">404 Error</a></li>
+                  </ul>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="font-size:15px; font-weight:500; color:black;">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+      </div>
+
+      <!-- code for three icons cart wishlist and user -->
+      <div class="col-sm-3 d-flex justify-content-end my-1">
+
+        <a href="addToWishlist.html" class="nav-link " id="wishlist">
+        <i class="bi bi-heart" id="header3-icons1"></i>
+          </a>
+
+
+        <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+
+          <i class="bi bi-cart-plus"  id="header3-icons2"> 0 </i>
+
+        </a>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--CAROUSEL CODE -->
+  <div class="container-fluid p-0 m-0 " id="hero-section">
+    <div class="row">
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "
+            aria-current="true" aria-label="Slide 1"
+            style="background-color:#ff8717; height:8px; width:28px; border:1px solid #ff8717; border-radius:7px;">
+          </button>
+
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+            style=" height:8px; width:28px; border:1px solid #ff871700; border-radius:7px;">
+          </button>
+
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+            style="height:8px; width:28px;  border:1px solid #ff871700;  border-radius:7px;"></button>
+        </div>
+
+        <div class="carousel-inner d-flex "
+          style="position:relative; z-index:-1; margin-top:-38px; height:650px; background-image:url(/asset\ 46.jpeg); background-position:center; background-repeat: no-repeat; background-size: cover;">
+
+          <div class="carousel-item d-flex justify-content-center align-items-center active">
+            <div class="col-5 d-none d-md-block"><img class="imagefluid d-none d-md-block "
+                src="/product-1.png" style="width:600px; height:350px;" />
+            </div>
+            <div class="col-lg-5 col-md-12 ">
+              <button class="btn btn-danger"
+                style="background-color:#ff8717; color:white; font-size:16px; font-family:sans-serif; border-radius:30px;">Weekend
+                Discount</button>
+              <h1 class=" text-white pt-4 pb-3" style="font-size:50px; font-weight:800;  font-family:sans-serif">Hi-Res
+                Audio<br>
+                Wireless Supported</h1>
+              <p class=" text-white" style=" font-size:30px; font-weight:600;  font-family:sans-serif">$339.99</p>
+              <button class="btn btn-danger"
+                style="background-color:#ff8717; color:white; font-size:16px; font-family:sans-serif; font-weight:400; border-radius:30px; padding:12px 38px;">Shop
+                Now</button>
+            </div>
+
+          </div>
+
+
+
+          <div class="carousel-item d-flex justify-content-center align-items-center ">
+            <div class="col-5 d-none d-md-block">
+              <img class="imagefluid" src="/product-1.png" style="width:600px; height:350px;" />
+            </div>
+            <div class="col-lg-5 col-md-12 ">
+              <button class="btn btn-danger"
+                style="background-color:#ff8717; color:white; font-size:16px; font-family:sans-serif; border-radius:30px;">Weekend
+                Discount</button>
+              <h1 class=" text-white pt-4 pb-3" style="font-size:50px; font-weight:800;  font-family:sans-serif">Hi-Res
+                Audio<br>
+                Wireless Supported</h1>
+              <p class=" text-white" style="font-size:30px; font-weight:600;  font-family:sans-serif">$339.99</p>
+              <button class="btn btn-danger"
+                style="background-color:#ff8717; color:white; font-size:16px; font-family:sans-serif; font-weight:400; border-radius:30px; padding:12px 38px;">Shop
+                Now</button>
+            </div>
+
+          </div>
+
+
+
+          <div class="carousel-item d-flex justify-content-center align-items-center ">
+            <div class="col-5 d-none d-md-block"><img class="imagefluid" src="/product-1.png"
+                style="width:600px; height:350px;" />
+            </div>
+            <div class="col-lg-5 col-md-12 ">
+              <button class="btn btn-danger"
+                style="background-color:#ff8717; color:white; font-size:16px; font-family:sans-serif; border-radius:30px;">Weekend
+                Discount</button>
+              <h1 class=" text-white pt-4 pb-3" style="font-size:50px; font-weight:800;  font-family:sans-serif">Hi-Res
+                Audio<br>
+                Wireless Supported</h1>
+              <p class=" text-white" style="font-size:30px; font-weight:600;  font-family:sans-serif">$339.99</p>
+              <button class="btn btn-danger"
+                style="background-color:#ff8717; color:white; font-size:16px; font-family:sans-serif; font-weight:400; border-radius:30px; padding:12px 38px;">Shop
+                Now</button>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- <div class="row">
+      <div class="col-5"><img class="imagefluid" src="product-1.png" /></div>
+      <div class="col-5">
+        <button>Weekend Discount</button>
+        <h1>Hi-Res Audio Wireless Supported</h1>
+        <p>$339.99</p>
+        <button>Shop Now</button>
+      </div>
+    </div> -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- <div class="row" style="height:500px; background-image:url(asset\ 46.jpeg); background-position:center; background-repeat: no-repeat; background-size: cover;">
+    <div class="col-5 border border-warning"></div>
+    <div class="col-5 border border-warning"></div>
+  </div> -->
+    </div>
+  </div>
+
+  <!-- -----------------------code of 2nd section of the template------------------------------------ -->
+  <div class="container" id="category-slider" style="padding-top:100px; padding-bottom:50px;">
+    <div class="row justify-content-center align-items-center border border-danger" style="height:auto;">
+
+      <div class="col-2  d-flex flex-column  justify-content-center align-items-center mx-3"
+        style="border-radius:90px; height:250px; width:180px; background-color:rgb(241, 245, 249);">
+        <img src="/asset 4.png" style="width:130px; height:120px;" />
+        <h2 class="text-dark  text-center"
+          style="font-size:18px; font-weight:bolder; color:black; font-family:sans-serif;">Laptop Cell <br> Tablets</h2>
+      </div>
+
+      <div class="col-2  d-flex flex-column  justify-content-center align-items-center mx-3"
+        style="border-radius:90px; height:250px; width:180px; background-color:#FFEAEC;">
+        <img src="/asset 5.png" style="width:130px; height:120px;" />
+        <h2 class="text-dark  text-center"
+          style="font-size:18px; font-weight:bolder; color:black; font-family:sans-serif;">SmartPhones & GPS</h2>
+      </div>
+
+
+
+
+      <div class="col-2 d-flex flex-column  justify-content-center align-items-center mx-3"
+        style="border-radius:90px; height:250px; width:180px; background-color:#E9FFEB;">
+        <img src="/asset 4.png" style="width:130px; height:120px;" />
+        <h2 class="text-dark  text-center"
+          style="font-size:18px; font-weight:bolder; color:black; font-family:sans-serif;">Peripheral Devices</h2>
+      </div>
+
+
+
+      <div class="col-2  d-flex flex-column  justify-content-center align-items-center mx-3"
+        style="border-radius:90px; height:250px; width:180px; background-color:#F8F1F9;">
+        <img src="/asset 3.png" style="width:130px; height:120px;" />
+        <h2 class="text-dark  text-center"
+          style="font-size:18px; font-weight:bolder; color:black; font-family:sans-serif;">Games Console</h2>
+      </div>
+
+
+      <div class="col-2  d-flex flex-column  justify-content-center align-items-center mx-3"
+        style="border-radius:90px; height:250px; width:180px; background-color:#FFFEE9;">
+        <img src="/asset 6.png" style="width:130px; height:120px;" />
+        <h2 class="text-dark  text-center"
+          style="font-size:18px; font-weight:bolder; color:black; font-family:sans-serif;">Desktop Computers</h2>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- -----------------------end of code of 2nd section of the template------------------------------------ -->
+
+
+  <!-- -------------------start of code of 3rd (slider) section of the template----------------------------------->
+  <div class="container-fluid" id="container-slider" style="padding-top:50px; padding-bottom:100px;">
+    <div class="row d-flex justify-content-center align-items-center">
+
+      <div id="carouselExampleControls" class="carousel slide d-flex align-items-center  border border-danger"
+        data-bs-ride="carousel" style="height:750px; width:80%;">
+
+        <div class="carousel-inner">
+          <!-- ------------------------slider1--------------------- -->
+          <div class="carousel-item active rounded-pill " style=" height:650px; border:transparent; ">
+
+            <div class="slider-1 rounded-pill" style="background-color:#FFEAEC; height:650px; border:transparent;">
+
+
+              <div class=" row d-flex justify-content-center align-content-center " style="height:650px;">
+                <!-- 1st content div -->
+                <div class="col-lg-6 d-flex flex-column justify-content-center" style="position:relative">
+                  <p class="text-dark" style="font-size:14px; font-weight:normal; font-family:sans-serif">WEEKEND
+                    DISCOUNT
+                  </p>
+                  <p class="text-dark p-0 m-0" style="font-size:48px; font-weight:900; font-family:sans-serif">Xiaomi Mi
+                    Scooter
+                    <br> Pro 2 E-Scooter
+                    <hr class="horizontal-divider mb-3" style="width:70%">
+                    </hr>
+                  </p>
+
+                  <p class="text-dark" style="font-size:16px; font-family:sans-serif; font-weight:normal;">Lorem ipsum
+                    dolor
+                    sit amet consectetur adipisicing elit. Unde quidem<br> a quaerat necessitatibus iste
+                    laboriosam</p>
+
+
+
+                  <div class="d-flex pt-3 pb-2 ">
+                    <i class="bi bi-wifi  slider-icon me-3"
+                      style="font-weight:bolder; color:#FFEAEC;  border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828;"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">WIRELESS <br> BIKE</span>
+
+
+                    <i class="bi bi-clock slider-icon  me-3"
+                      style=" font-weight:bolder; color:#FFEAEC;  border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828;"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">SAMRT <br>LOCK</span>
+
+                    <i class="bi bi-geo-fill  slider-icon  me-3"
+                      style=" color:#FFEAEC; border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828; font-weight:bolder"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">LOCATION <br>GPS</span>
+
+                  </div>
+                </div>
+                <!-- 2nd div -->
+                <div class=" col-lg-2" style="position:absolute; z-index:1;">
+                  <img src="/asset 8.png" style="width:500px; height:650px;" />
+                </div>
+
+                <!-- 3rd div -->
+                <div class="col-lg-4 d-flex flex-column justify-content-center ps-5 ">
+                  <button class="btn btn-warning text-dark"
+                    style="background-color:#FED700;font-size:14px; font-weight:600; font-family:sans-serif; border-radius:30px; width:30%">HOT
+                    SALE</button>
+                  <p class="text-dark" style="font-size:40px; font-weight:bolder; font-family:sans-serif">$5657.66</p>
+                  <p class="text-dark" style="font-size:20px; font-weight:500;">Enjoy 15 % off your first order</p>
+                  <button class="btn btn-dark"
+                    style="width:60%; color:white; font-size:16px; font-family:sans-serif; font-weight:400; border-radius:30px; padding:15px 38px;">Shop
+                    Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- ------------slider 2--------------------- -->
+          <div class="carousel-item  rounded-pill" style="height:650px; border:transparent; ">
+
+            <div class="slider-1 rounded-pill" style="background-color:#DAF8FF; height:650px; border:transparent;">
+
+              <div class=" row d-flex justify-content-center align-content-center " style="height:650px; ">
+                <!-- 1st content div -->
+                <div class="col-lg-6  d-flex flex-column justify-content-center" style="position:relative">
+                  <p class="text-dark" style="font-size:14px; font-weight:normal; font-family:sans-serif">WEEKEND
+                    DISCOUNT
+                  </p>
+                  <p class="text-dark p-0 m-0" style="font-size:48px; font-weight:900; font-family:sans-serif">Xiaomi Mi
+                    Scooter
+                    <br> Pro 2 E-Scooter
+                    <hr class="horizontal-divider mb-3" style="width:70%">
+                    </hr>
+                  </p>
+
+                  <p class="text-dark" style="font-size:16px; font-family:sans-serif; font-weight:normal;">Lorem ipsum
+                    dolor
+                    sit amet consectetur adipisicing elit. Unde quidem<br> a quaerat necessitatibus iste
+                    laboriosam</p>
+
+
+
+                  <div class="d-flex pt-3 pb-2 ">
+                    <i class="bi bi-wifi  slider-icon me-3"
+                      style="font-weight:bolder; color:#FFEAEC;  border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828;"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">WIRELESS <br> BIKE</span>
+
+
+                    <i class="bi bi-clock slider-icon  me-3"
+                      style=" font-weight:bolder; color:#FFEAEC;  border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828;"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">SAMRT <br>LOCK</span>
+
+                    <i class="bi bi-geo-fill  slider-icon  me-3"
+                      style=" color:#FFEAEC; border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828; font-weight:bolder"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">LOCATION <br>GPS</span>
+
+                  </div>
+                </div>
+                <!-- 2nd div -->
+                <div class=" col-lg-2 " style="position:absolute; z-index:1;">
+                  <img src="/asset 8.png" style="width:500px; height:650px;" />
+                </div>
+
+                <!-- 3rd div -->
+                <div class="col-lg-4 d-flex flex-column justify-content-center ps-5 ">
+                  <button class="btn btn-warning text-dark"
+                    style="background-color:#FED700;font-size:14px; font-weight:600; font-family:sans-serif; border-radius:30px; width:30%">HOT
+                    SALE</button>
+                  <p class="text-dark" style="font-size:40px; font-weight:bolder; font-family:sans-serif">$5657.66</p>
+                  <p class="text-dark" style="font-size:20px; font-weight:500;">Enjoy 15 % off your first order</p>
+                  <button class="btn btn-dark"
+                    style="width:60%; color:white; font-size:16px; font-family:sans-serif; font-weight:400; border-radius:30px; padding:15px 38px;">Shop
+                    Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <!-- ---------------slider-3------------------ -->
+          <div class="carousel-item  rounded-pill" style="height:650px; border:transparent; ">
+
+            <div class="slider-1 rounded-pill" style="background-color:#FFF5E9; height:650px; border:transparent;">
+
+              <div class=" row d-flex justify-content-center align-content-center " style="height:650px; ">
+                <!-- 1st content div -->
+                <div class="col-lg-6 d-flex flex-column justify-content-center" style="position:relative">
+                  <p class="text-dark" style="font-size:14px; font-weight:normal; font-family:sans-serif">WEEKEND
+                    DISCOUNT
+                  </p>
+                  <p class="text-dark p-0 m-0" style="font-size:48px; font-weight:900; font-family:sans-serif">Xiaomi Mi
+                    Scooter
+                    <br> Pro 2 E-Scooter
+                    <hr class="horizontal-divider mb-3" style="width:70%">
+                    </hr>
+                  </p>
+
+                  <p class="text-dark" style="font-size:16px; font-family:sans-serif; font-weight:normal;">Lorem ipsum
+                    dolor
+                    sit amet consectetur adipisicing elit. Unde quidem<br> a quaerat necessitatibus iste
+                    laboriosam</p>
+
+
+
+                  <div class="d-flex pt-3 pb-2 ">
+                    <i class="bi bi-wifi  slider-icon me-3"
+                      style="font-weight:bolder; color:#FFEAEC;  border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828;"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">WIRELESS <br> BIKE</span>
+
+
+                    <i class="bi bi-clock slider-icon  me-3"
+                      style=" font-weight:bolder; color:#FFEAEC;  border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828;"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">SAMRT <br>LOCK</span>
+
+                    <i class="bi bi-geo-fill  slider-icon  me-3"
+                      style=" color:#FFEAEC; border-radius:50%; padding:9px 13px; font-size:20px; background-color:#282828; font-weight:bolder"></i>
+                    <span class="text-dark me-3" style="font-size:16px; font-weight:500; ">LOCATION <br>GPS</span>
+
+                  </div>
+                </div>
+                <!-- 2nd div -->
+                <div class=" col-lg-2" style="position:absolute; z-index:1;">
+                  <img src="/asset 8.png" style="width:500px; height:650px;" />
+                </div>
+
+                <!-- 3rd div -->
+                <div class="col-lg-4  d-flex flex-column justify-content-center ps-5 ">
+                  <button class="btn btn-warning text-dark"
+                    style="background-color:#FED700;font-size:14px; font-weight:600; font-family:sans-serif; border-radius:30px; width:30%">HOT
+                    SALE</button>
+                  <p class="text-dark" style="font-size:40px; font-weight:bolder; font-family:sans-serif">$5657.66</p>
+                  <p class="text-dark" style="font-size:20px; font-weight:500;">Enjoy 15 % off your first order</p>
+                  <button class="btn btn-dark"
+                    style="width:60%; color:white; font-size:16px; font-family:sans-serif; font-weight:400; border-radius:30px; padding:15px 38px;">Shop
+                    Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev p-3" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-light" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------end of code of 3rd (slider) section of the template----------------------------------->
+
+
+
+
+
+  <!-- -------------------start of code of 4th (slider) Trending Products of the template----------------------------------->
+
+  <div class="container border border-danger" id="container-catalog">
+    <div class="row border border-warning d-flex justify-content-center align-items-center"
+      style="padding-top:100px; padding-bottom:100px;">
+      <h2 class="text-center" style="font-size:14px; color:#ff8717; font-weight:600; font-family:sans-serif;">GO TO
+        DAILY DEALS</h2>
+      <h1 class="text-center"
+        style="font-size:45px; color:#282828; font-weight:bolder; font-family:sans-serif; padding-bottom:40px;">
+        Trending Products</h1>
+      <div class="row col-md-12 d-flex flex-lg-row justify-md-content-between justify-content-center">
+
+        <!-- div 1 -->
+
+        <div class="card card-1 p-2  me-3 mb-3 col-lg-3 col-12" style="width:18rem;">
+          <div class="d-flex justify-content-end p-0 m-0">
+            <i class="bi bi-basket-fill card-icons me-2"></i>
+            <i class="bi bi-heart-fill card-icons me-2"></i>
+            <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+          </div>
+
+          <img src="/asset 9.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+            <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                style="font-size:22px; font-weight:700;">$18.00</span></p>
+          </div>
+
+          <div class="d-flex  justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+            <div>
+              <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+              <span>Radios</span>
+            </div>
+            <div>
+              <p class="text-success border border-success p-2 rounded">2 %</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- div 2 -->
+
+        <div class="card card-1 me-3 mb-3 p-2 col-lg-3 col-12" style="width: 18rem;">
+          <div class="d-flex justify-content-end p-0 m-0">
+            <i class="bi bi-basket-fill card-icons me-2"></i>
+            <i class="bi bi-heart-fill card-icons me-2"></i>
+            <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+          </div>
+          <img src="/asset 11.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+            <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                style="font-size:22px; font-weight:700;">$18.00</span></p>
+          </div>
+
+          <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+            <div>
+              <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+              <span>Radios</span>
+            </div>
+            <div>
+              <p class="text-success border border-success p-2 rounded">2 %</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- div 3 -->
+
+
+        <div class="card card-1 me-3 mb-3 p-2 col-lg-3 col-12" style="width: 18rem;">
+          <div class="d-flex justify-content-end p-0 m-0">
+            <i class="bi bi-basket-fill card-icons me-2"></i>
+            <i class="bi bi-heart-fill card-icons me-2"></i>
+            <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+          </div>
+          <img src="/asset 12.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+            <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                style="font-size:22px; font-weight:700;">$18.00</span></p>
+          </div>
+
+          <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+            <div>
+              <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+              <span>Radios</span>
+            </div>
+            <div>
+              <p class="text-success border border-success p-2 rounded">2 %</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- div 4 -->
+
+        <div class="card card-1 me-3 mb-3 p-2 col-lg-3 col-12" style="width: 18rem;">
+          <div class="d-flex justify-content-end p-0 m-0">
+            <i class="bi bi-basket-fill card-icons me-2"></i>
+            <i class="bi bi-heart-fill card-icons me-2"></i>
+            <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+          </div>
+          <img class="img-fluid" src="/asset 13.png" class="card-img-top img-fluid" alt="..."
+            width="250px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+            <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                style="font-size:22px; font-weight:700;">$18.00</span></p>
+          </div>
+
+          <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+            <div>
+              <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+              <span>Radios</span>
+            </div>
+            <div>
+              <p class="text-success border border-success p-2 rounded">2 %</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------end of code of 4th (slider) Trending Products of the template----------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- -------------------start of code of 5th Online store  of the template----------------------------------->
+
+
+  <div class="container border border-warning" id="your-online-store">
+
+    <div class="row col-md-12  d-flex justify-content-center align-items-center  flex-direction-lg-column"
+      style="padding-top:60px; padding-bottom:60px;">
+
+      <h2 class="text-center" style="font-size:14px; color:#ff8717; font-weight:600; font-family:sans-serif;">FULLY MADE
+        WEBSITES</h2>
+      <h1 class="text-center"
+        style="font-size:45px; color:#282828; font-weight:bolder; font-family:sans-serif; padding-bottom:40px;">
+        Your Online Store</h1>
+
+
+      <!-- <div class="row col-lg-12 d-flex  flex-direction-lg-column"> -->
+      <!-- online store card 1 -->
+
+      <div class="col-lg-3 col-12 me-lg-2 ms-lg-2 mb-lg-2 mt-lg-2  m-2 mt-4 mb-4" id="Online-store">
+
+        <h2 class="text-center" id="online-store-heading">Laptops & Computers</h2>
+        <img class="image-fluid" src="/asset 14.png" />
+        <div class="lists-with-arrow">
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Ending Offers</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Laptops</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Refurbished Laptops</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Accessories</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store" id="last-list">
+            <p class="online-store-para me-4">Printers & Ink</p>
+            <i class="bi bi-arrow-right ms-4"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- online store card 2-->
+      <div class="col-lg-4 col-12 me-lg-2 ms-lg-2 mb-lg-2 mt-lg-2  m-2 mt-4 mb-4" id="Online-store">
+
+        <h2 class="text-center" id="online-store-heading">Week Deals Limited</h2>
+        <img class="image-fluid" src="/asset 15.png" />
+        <div class="lists-with-arrow">
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Ending Offers</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Laptops</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Refurbished Laptops</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Accessories</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store" id="last-list">
+            <p class="online-store-para me-4">Printers & Ink</p>
+            <i class="bi bi-arrow-right ms-4"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- online store card 3 -->
+      <div class="col-lg-3 col-12 me-lg-2 ms-lg-2 mb-lg-2 mt-lg-2  m-2 mt-4 mb-4" id="Online-store">
+
+        <h2 class="text-center" id="online-store-heading">Featured Products</h2>
+        <img class="image-fluid" src="/asset 16.png" />
+        <div class="lists-with-arrow">
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Ending Offers</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Laptops</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Refurbished Laptops</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store">
+            <p class="online-store-para me-4">Accessories</p>
+            <i class="bi bi-arrow-right ms-5"></i>
+          </div>
+
+          <div class="Card-Online-Store" id="last-list">
+            <p class="online-store-para me-4">Printers & Ink</p>
+            <i class="bi bi-arrow-right ms-4"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- -------------------end of code of 5th online store of the template----------------------------------->
+
+
+
+
+
+
+
+  <!-- -------------------start of code of 6th Devices of the template----------------------------------->
+
+  <div class="container-fluid" id="devices">
+    <div class="row col-12 " id="device-section">
+
+      <div class="col-lg-5 col-12 m-md-2 m-3 div-1-device">
+        <div class="content-div">
+          <h2 class="best-games-content">BEST GAMES</h2>
+          <h1 class="devices-content">DEVICES</h1>
+          <p class="content-para">Travel up to 22km in a single charge</p>
+          <button class="btn btn-light"
+            style="border-radius:10px; color:black; font-size:14px; font-weight: 600; font-family: sans-serif;">BUY
+            NOW</button>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-12 m-md-2 m-3  div-2-device">
+        <div class="content-div">
+          <h2 class="best-games-content">BEST GAMES</h2>
+          <h1 class="devices-content">DEVICES</h1>
+          <p class="content-para">Travel up to 22km in a single charge</p>
+          <button class="btn btn-light"
+            style="border-radius:10px; color:black; font-size:14px; font-weight: 600; font-family: sans-serif;">BUY
+            NOW</button>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-3 col-12 m-md-2 m-3 div-3-device">
+        <div class="content-div">
+          <h2 class="best-games-content">BEST GAMES</h2>
+          <h1 class="devices-content">DEVICES</h1>
+          <p class="content-para">Travel up to 22km in a single charge</p>
+          <button class="btn btn-light"
+            style="border-radius:10px; color:black; font-size:14px; font-weight: 600; font-family: sans-serif;">BUY
+            NOW</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- -------------------end of code of 6th Devices of the template----------------------------------->
+
+
+
+
+
+
+
+  <!-- -------------------start of code of 7th section of the template----------------------------------->
+  <div class="container" id="container-8" style="padding-top:100px; padding-bottom:50px;">
+    <!-- section-7 -->
+    <div class="row col-12" id="section-7">
+
+
+
+      <!-- section 7-1 -->
+
+      <div class="col-lg-4 col-12 sec-7-1 border border-warning">
+
+        <div class="headphone-more">
+
+          <h2 id="headphone-more-subheading">HEADPHONES & MORE</h2>
+          <h2 id="headphone-more-main-heading">Save $89! Weekends Sale</h2>
+          <div class="lists-with-arrow">
+            <div class="headphones-more-lists-div1">
+              <p class="headphone-more-para me-4">Cameras</p>
+              <i class="bi bi-arrow-right ms-5"></i>
+            </div>
+
+            <div class="headphones-more-lists-div1">
+              <p class="headphone-more-para me-4">Audio</p>
+              <i class="bi bi-arrow-right ms-5"></i>
+            </div>
+
+            <div class="headphones-more-lists-div1">
+              <p class="headphone-more-para me-4">GPS & Navigation</p>
+              <i class="bi bi-arrow-right ms-5"></i>
+            </div>
+
+            <div class="headphones-more-lists-div1">
+              <p class="headphone-more-para me-4">TV & Video</p>
+              <i class="bi bi-arrow-right ms-5"></i>
+            </div>
+
+            <div class="headphones-more-lists-div1" id="last-list">
+              <p class="headphone-more-para me-4">Cell phones</p>
+              <i class="bi bi-arrow-right ms-4"></i>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="best-seller-2022 mt-2">
+          <!-- <div class="mt-2 best-seller-div"> -->
+          <div class="content-div">
+            <h2 id="headphone-more-subheading">BEST GAMES</h2>
+            <h1 id="headphone-more-main-heading">DEVICES</h1>
+            <p class="headphone-more-para">Travel up to 22km in a single charge</p>
+            <button class="btn btn-light"
+              style="border-radius:10px; color:black; font-size:14px; font-weight: 600; font-family: sans-serif;">BUY
+              NOW</button>
+          </div>
+          <!-- </div> -->
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- section 7-2 -->
+
+      <div class="col-lg-8 col-12 sec-7-2 border border-warning">
+        <div class="row col-md-12 m-2" id="section-7-2">
+
+          <!-- div 1 -->
+          <div class="card card-1-1  p-2 col-lg-4 col-md-5 m-2 m-lg-0 col-12">
+            <div class="d-flex justify-content-end p-0 m-0">
+              <i class="bi bi-basket-fill card-icons me-2"></i>
+              <i class="bi bi-heart-fill card-icons me-2"></i>
+              <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+            </div>
+            <img src="/asset 20.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+              <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                  style="font-size:22px; font-weight:700;">$18.00</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+              <div>
+                <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+                <span>Radios</span>
+              </div>
+              <div>
+                <p class="text-success border border-success p-2 rounded">2 %</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- div 2-->
+          <div class="card card-1-1  p-2 col-lg-4 col-md-5 m-2 m-lg-0 col-12">
+            <div class="d-flex justify-content-end p-0 m-0">
+              <i class="bi bi-basket-fill card-icons me-2"></i>
+              <i class="bi bi-heart-fill card-icons me-2"></i>
+              <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+            </div>
+            <img src="/asset 21.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+              <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                  style="font-size:22px; font-weight:700;">$18.00</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+              <div>
+                <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+                <span>Radios</span>
+              </div>
+              <div>
+                <p class="text-success border border-success p-2 rounded">2 %</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- div 3 -->
+          <div class="card card-1-1   p-2 col-lg-4 col-md-5 m-2 m-lg-0 col-12">
+            <div class="d-flex justify-content-end p-0 m-0">
+              <i class="bi bi-basket-fill card-icons me-2"></i>
+              <i class="bi bi-heart-fill card-icons me-2"></i>
+              <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+            </div>
+            <img src="/asset 22.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+              <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                  style="font-size:22px; font-weight:700;">$18.00</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+              <div>
+                <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+                <span>Radios</span>
+              </div>
+              <div>
+                <p class="text-success border border-success p-2 rounded">2 %</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- div 4 -->
+          <div class="card card-1-1  p-2 col-lg-4 col-md-5 m-2 m-lg-0 col-12">
+            <div class="d-flex justify-content-end p-0 m-0">
+              <i class="bi bi-basket-fill card-icons me-2"></i>
+              <i class="bi bi-heart-fill card-icons me-2"></i>
+              <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+            </div>
+            <img src="/asset 23.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+              <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                  style="font-size:22px; font-weight:700;">$18.00</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+              <div>
+                <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+                <span>Radios</span>
+              </div>
+              <div>
+                <p class="text-success border border-success p-2 rounded">2 %</p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- div 5 -->
+          <div class="card card-1-1  p-2 col-lg-4 col-md-5 m-2 m-lg-0 col-12">
+            <div class="d-flex justify-content-end p-0 m-0">
+              <i class="bi bi-basket-fill card-icons me-2"></i>
+              <i class="bi bi-heart-fill card-icons me-2"></i>
+              <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+            </div>
+            <img src="/asset 24.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+              <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                  style="font-size:22px; font-weight:700;">$18.00</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+              <div>
+                <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+                <span>Radios</span>
+              </div>
+              <div>
+                <p class="text-success border border-success p-2 rounded">2 %</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- div 6 -->
+          <div class="card card-1-1  p-2 col-lg-4 col-md-5 m-2 m-lg-0 col-12">
+            <div class="d-flex justify-content-end p-0 m-0">
+              <i class="bi bi-basket-fill card-icons me-2"></i>
+              <i class="bi bi-heart-fill card-icons me-2"></i>
+              <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+            </div>
+            <img src="/asset 25.png" class="card-img-top img-fluid" alt="..." width="80px" height="80px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:18px; font-weight:700;">Rokinon Xeen CF 16mm T2. 6 Pro..</h5>
+              <p class="card-text"><span style="font-size:20px;">$20.00</span><span
+                  style="font-size:22px; font-weight:700;">$18.00</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between  align-items-center  ps-2 pe-3 pb-3">
+              <div>
+                <img src="/asset 26.jpeg" width="40px" height="40px" style="border-radius:30px;" />
+                <span>Radios</span>
+              </div>
+              <div>
+                <p class="text-success border border-success p-2 rounded">2 %</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- -------------------end  of code of 7th section of the template----------------------------------->
+
+
+
+
+
+
+
+
+
+
+  <!-- -------------------start of code of 8th section of the template----------------------------------->
+  <div class="container-fluid" id="container-section-8" style="padding-top:100px; padding-bottom:50px;">
+
+    <div class="row col-12" id="waterproof-section">
+      <div>
+        <button class="btn btn-danger hot-sale"
+          style="background-color: #ff8717; color:white; border-radius:20px; font-weight: 600; font-family: sans-serif; padding:8px 15px;">Hot
+          Sale</button>
+        <h2 class="waterproof-rating-heading">Waterproof Rating <br>Enhanced Resistance</h2>
+        <button class="btn btn-danger shop-now"
+          style="background-color: #ff8717; color:white; border-radius:30px; font-weight: 600; font-family: sans-serif; padding:13px 20px;">Shop
+          Now</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- template section -->
+  <!-- 
+<section class="container">
+  <div id="product-Container">
+
+
+  </div>
+</section> -->
+
+
+
+
+  <!-- <div class="container" id="container-1-1">
+    <div class="row col-12 d-flex justify-content-center align-items-center">
+
+
+
+
+
+      <-- new card 1 -->
+
+  <!-- <div class="card card-1-1 p-2 me-3 mb-3 col-lg-3 col-12" style="width:18rem;">
+
+        <div class="d-flex justify-content-end p-0 m-0">
+          <i class="bi bi-basket-fill card-icons me-2"></i>
+          <i class="bi bi-heart-fill card-icons me-2"></i>
+          <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+        </div>
+
+        <div>
+          <img id="productImage" src="/public/Images/asset 9.png" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+
+          <h5 class="card-title" id="product-Heading">Rokinon Xeen CF</h5>
+          <p class="card-text"> -->
+  <!-- <p class="productDescription">Lorem ipsum dolor sit amet consec tetur adipi sicing.</p>
+          <span class="ActualPrice" style="font-size:20px;">$20.00</span>
+          <span class="DiscountPrice" style="font-size:22px; font-weight:700;">$18.00</span>
+
+        </div>
+
+        <div class="quantity-div">
+
+          <div>
+            <button class="btn btn-dark" id="add-to-cart-button">Add to Cart</button>
+          </div>
+
+          <div class="quantity-buttons bg-light">
+            <button class="btn btn-light" id="cartIncrement">-</button>
+            <p class="btn btn-light" id="ProductQuantity">1</p>
+            <button class="btn btn-light" id="cartDecrement">+</button>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+
+      new card 2
+
+      <div class="card card-1-1 p-2 me-3 mb-3 col-lg-3 col-12" style="width:18rem;">
+
+        <div class="d-flex justify-content-end p-0 m-0">
+          <i class="bi bi-basket-fill card-icons me-2"></i>
+          <i class="bi bi-heart-fill card-icons me-2"></i>
+          <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+        </div>
+
+        <div>
+          <img id="productImage" src="/public/Images/asset 9.png" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+
+          <h5 class="card-title" id="product-Heading">Rokinon Xeen CF</h5>
+          <p class="card-text">
+          <p class="productDescription">Lorem ipsum dolor sit amet consec tetur adipi sicing.</p>
+          <span class="ActualPrice" style="font-size:20px;">$20.00</span>
+          <span class="DiscountPrice" style="font-size:22px; font-weight:700;">$18.00</span>
+
+        </div>
+
+        <div class="quantity-div">
+
+          <div>
+            <button class="btn btn-dark" id="add-to-cart-button">Add to Cart</button>
+          </div>
+
+          <div class="quantity-buttons bg-light">
+            <button class="btn btn-light" id="cartIncrement">-</button>
+            <p class="btn btn-light" id="ProductQuantity">1</p>
+            <button class="btn btn-light" id="cartDecrement">+</button>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+      new card 3
+
+      <div class="card card-1-1 p-2 me-3 mb-3 col-lg-3 col-12" style="width:18rem;">
+
+        <div class="d-flex justify-content-end p-0 m-0">
+          <i class="bi bi-basket-fill card-icons me-2"></i>
+          <i class="bi bi-heart-fill card-icons me-2"></i>
+          <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+        </div>
+
+        <div>
+          <img id="productImage" src="/public/Images/asset 9.png" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+
+          <h5 class="card-title" id="product-Heading">Rokinon Xeen CF</h5>
+          <p class="card-text">
+          <p class="productDescription">Lorem ipsum dolor sit amet consec tetur adipi sicing.</p>
+          <span class="ActualPrice" style="font-size:20px;">$20.00</span>
+          <span class="DiscountPrice" style="font-size:22px; font-weight:700;">$18.00</span>
+
+        </div>
+
+        <div class="quantity-div">
+
+          <div>
+            <button class="btn btn-dark" id="add-to-cart-button">Add to Cart</button>
+          </div>
+
+          <div class="quantity-buttons bg-light">
+            <button class="btn btn-light" id="cartIncrement">-</button>
+            <p class="btn btn-light" id="ProductQuantity">1</p>
+            <button class="btn btn-light" id="cartDecrement">+</button>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+
+      new card 4
+
+      <div class="card card-1-1 p-2 me-3 mb-3 col-lg-3 col-12" style="width:18rem;">
+
+        <div class="d-flex justify-content-end p-0 m-0">
+          <i class="bi bi-basket-fill card-icons me-2"></i>
+          <i class="bi bi-heart-fill card-icons me-2"></i>
+          <i class="bi bi-arrows-angle-contract card-icons me-2"></i>
+        </div>
+
+        <div>
+          <img id="productImage" src="/public/Images/asset 9.png" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+
+          <h5 class="card-title" id="product-Heading">Rokinon Xeen CF</h5>
+          <p class="card-text">
+          <p class="productDescription">Lorem ipsum dolor sit amet consec tetur adipi sicing.</p>
+          <span class="ActualPrice" style="font-size:20px;">$20.00</span>
+          <span class="DiscountPrice" style="font-size:22px; font-weight:700;">$18.00</span>
+
+        </div>
+
+        <div class="quantity-div">
+
+          <div>
+            <button class="btn btn-dark" id="add-to-cart-button">Add to Cart</button>
+          </div>
+
+          <div class="quantity-buttons bg-light">
+            <button class="btn btn-light" id="cartIncrement">-</button>
+            <p class="btn btn-light" id="ProductQuantity">1</p>
+            <button class="btn btn-light" id="cartDecrement">+</button>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </div>-->
+
+
+
+
+
+
+
+
+  <!-- code for new product section (copy this code and paste on the shop page)-->
+
+  <div class="container" id="container-1-1">
+    <div>
+    <div class="col-12 d-flex justify-content-around align-items-center flex-row" id="productContainer">
+
+       <div> <img src="/asset 34.png"></div>
+       <div><img src="/asset 35.png"></div>
+       <div><img src="/asset 36.png"></div>
+       <div><img src="/asset 37.png"></div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+
+  <!-- code of the footer strip section -->
+  <div class="container-fluid" id="form-section">
+    <div class="row col-lg-12">
+
+      <div class="row col-lg-12 p-md-5 ps-4 pt-5 pb-5 d-flex justify-content-between align-items-center">
+
+        <div class="col-lg-6 col-12">
+          <h2 class="footerstrip-heading">We Are Ready To Help</h2>
+          <p class="footerstrip-para">For information Consult with our expert members</p>
+        </div>
+
+        <div class="col-lg-6 col-12 form">
+          <input class="input-field" type="email" placeholder="Enter Your Email" name="email-Id">
+          <button class="subscribe-btn">SUBSCRIBE</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- code of main footer section -->
+
+  <div class="container-fluid" id="main-footer-section">
+<div class="row col-12  d-flex">
+
+  <!-- footer 1st div -->
+    <div class="col-lg-3 col-12 mt-lg-0 mb-lg-0 pt-2 pb-5">
+
+      <img src="/asset-0.png" alt="" width="200px" height="50px">
+      <p class="text-white pt-4 pb-2">4517 Washington Ave. Manchester, Kentucky </br>39495 ashington Ave. Manchester,</p>
+      <p class="text-white pt-2 pb-2"><i class="bi bi-geo-alt-fill text-white me-2" style=" padding:10px 13px;font-size: 20px;border-radius:50%; background-color: #ff8717;"></i>254 Lillian Blvd, Holbrook</p>
+      <p class="text-white pt-2 pb-2"><i class="bi bi-telephone-fill text-white  me-2" style=" padding:10px 13px;font-size: 20px;border-radius:50%; background-color: #ff8717;"></i>1-800-654-3210</p>
+      <div class="d-flex">
+        <div><img src="/asset 43.png"></div>
+        <div><img src="/asset 44.png"></div>
+      </div>
+        
+    </div>
+
+ <!-- footer 2nd div -->
+ 
+
+      <div class="col-lg-3 col-12 pt-5 pb-5 ps-2" style="padding:0px 50px;" id="Find-it-fast">
+
+        <h2 class="text-start footer-heading">Find it Fast</h2>
+       
+        <div class="lists-with-arrow">
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Bluetooth Speaker</p>
+            <i class="bi bi-arrow-right ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Digital Cameras</p>
+            <i class="bi bi-arrow-right ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">External Drive</p>
+            <i class="bi bi-arrow-right ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Television</p>
+            <i class="bi bi-arrow-right ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-last-div">
+            <p class="footer-para me-4 mt-2 mb-2">Monitors</p>
+            <i class="bi bi-arrow-right ms-4 arrow-element"></i>
+          </div>
+        </div>
+
+      </div>
+
+      
+ 
+
+<!-- footer 3rd div -->
+   
+      <div class="col-lg-3 col-12 pt-5 pb-5 ps-2" style="padding:0px 50px;" id="Find-it-fast">
+
+        <h2 class="text-start footer-heading">Quick Links</h2>
+       
+        <div class="lists-with-arrow">
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Home</p>
+            <i class="bi bi-arrow-right arrow-element ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">About Us</p>
+            <i class="bi bi-arrow-right arrow-element ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Add To Cart</p>
+            <i class="bi bi-arrow-right arrow-element ms-5 arrow-element"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Our Products</p>
+            <i class="bi bi-arrow-right arrow-element ms-5"></i>
+          </div>
+
+          <div class="footer-last-div" id="last-list">
+            <p class="footer-para me-4 mt-2 mb-2">Contact US</p>
+            <i class="bi bi-arrow-right arrow-element ms-4"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+
+<!-- footer 4th div -->
+
+    
+
+      <div class="col-lg-3 col-12 pt-5 pb-5 ps-2" style="padding:0px 50px;" id="Find-it-fast">
+
+        <h2 class="text-start footer-heading">Service Us</h2>
+       
+        <div class="lists-with-arrow">
+          <div class="footer-div">
+            <p class="footer-para me-4mt-2 mb-2">Terms & Conditions</p>
+            <i class="bi bi-arrow-right arrow-element ms-5"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Privacy Policies</p>
+            <i class="bi bi-arrow-right arrow-element ms-5"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Product Returns</p>
+            <i class="bi bi-arrow-right arrow-element ms-5"></i>
+          </div>
+
+          <div class="footer-div">
+            <p class="footer-para me-4 mt-2 mb-2">Help</p>
+            <i class="bi bi-arrow-right arrow-element ms-5"></i>
+          </div>
+
+          <div class="footer-last-div" id="last-list">
+            <p class="footer-para me-4 mt-2 mb-2">FAQs</p>
+            <i class="bi bi-arrow-right arrow-element ms-4"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- last footer section -->
+   <div class="container-fluid"  id="last-footer-section">
+   
+    <div class=" row col-lg-12" id="last-footer-section-div">
+
+    <div class="col-lg-4 col-12">
+      <p class="text-white">@copyright Janhavi Rajendra Jangle</p>
+    </div>
+
+
+    <div class="col-lg-4 col-12 mt-3 mb-3">
+      <i class="fa-brands fa-facebook-f text-dark  me-lg-1 me-2" style="font-size:20px; padding:11px 13px;
+      background-color:white; border-radius:30px;"></i>
+
+      <i class="fa-brands fa-twitter text-dark  me-lg-1 me-2" style="font-size:20px; padding:11px 13px;
+      background-color:white; border-radius:30px;" ></i>
+
+      <i class="fa-brands fa-instagram text-dark  me-lg-1 me-2" style="font-size:20px; padding:11px 13px;
+      background-color:white; border-radius:30px;"></i>
+
+      <i class="fa-brands fa-linkedin-in text-dark   me-lg-1 me-2" style="font-size:20px; padding:11px 13px;
+      background-color:white; border-radius:30px;"></i>
+
+      <i class="fa-brands fa-youtube text-dark   me-lg-1 me-2" style="font-size:20px; padding:11px 13px;
+      background-color:white; border-radius:30px;"></i>
+
+    </div>
+
+
+
+    <div class="col-lg-4 col-12 mt-2 mb-2"><img src="/asset 45.png" alt=""></div>
+
+    </div>
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script> -->
+
+  <script type="module" src="main.js"></script>
+
+  <!-- <script src="HomeProductsCards.js"></script> -->
+</body>
+
+</html>
